@@ -3,14 +3,14 @@
 {% block content %}
     <div class="col-md-4 text-center">
         <br><br>
-        <h1>Welcome to the <b>LogiSticks App</b></h1>
+        <h1>欢迎来到 <b>物流平台</b></h1>
         <br><hr>
-        <h3>Please register an account or login to an existing one.</h3>
-        <a class="btn btn-primary" type="button" href="login">Login</a>
+        <h3>登录或注册</h3>
+        <a class="btn btn-primary" type="button" href="login">登录</a>
         <br><br>
-        <a class="btn btn-primary" type="button" href="register">Sign Up</a>
+        <a class="btn btn-primary" type="button" href="register">注册</a>
         <br><br><hr><br>
-        <h3>If you're a delivery official, click below.</h3>
-        <a class="btn btn-primary" type="button" href="{% url 'delivery' %}">Deliveries</a>
+        <h3>如果您是送货人员，请单击下面</h3>
+        <a class="btn btn-primary" type="button" href="{% url 'delivery' %}">订单</a>
     </div>
 {% endblock content %}
